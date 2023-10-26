@@ -16,7 +16,7 @@ export function App() {
   }, [todos])
 
   function addtoDo(title) {
-    setTodo([...todos, { id: crypto.randomUUID(), title, completed: false }])
+    setTodo([{ id: crypto.randomUUID(), title, completed: false }, ...todos])
   }
 
   function toggleTodo(id) {

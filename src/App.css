@@ -76,7 +76,7 @@ h1 {
 }
 
 .completed {
-  color: #c5aeff;
+  color: #000000;
   text-decoration: line-through;
 }
 .header {
